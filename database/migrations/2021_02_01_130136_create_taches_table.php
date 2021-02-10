@@ -14,7 +14,7 @@ class CreateTachesTable extends Migration
     public function up()
     {
         Schema::create('taches', function (Blueprint $table) {
-            $table->id();
+            $table->id('id');
             $table->string('titre');
             $table->longText('description');
             $table->date('date');

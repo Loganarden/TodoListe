@@ -11,10 +11,10 @@ class Tache extends Model
     use HasFactory;
 
     protected $fillable = [
-        'id',
         'titre',
         'description',
         'date',
+        ''
     ];
 
     public function user()
