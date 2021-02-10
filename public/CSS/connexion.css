@@ -1,0 +1,70 @@
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #008DAA;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 45px;
+    font-size: 17px;
+}
+
+input[type="submit"] {
+    border: 12px;
+    border-radius: 12px;
+    background: rgba(11, 178, 145, 0.555);
+    font-size: 15px;
+    padding: 3px 5px;
+    text-align: center;
+    border: 1px solid rgba(0, 255, 238, 0.473);
+    ;
+}
+
+fieldset {
+    padding: 0 20px 20px 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 2px solid #008DAA;
+}
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+/*  .top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}*/
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 70px;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-left: 35%;
+}

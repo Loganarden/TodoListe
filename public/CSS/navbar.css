@@ -1,0 +1,26 @@
+.bar ul{
+    list-style-type: none;
+    margin: 5px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.bar li{
+    float: left;
+}
+
+.bar li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.bar li a:hover:not(.active) {
+    background-color: rgb(184, 184, 184);
+}
+
+.active{
+    background-color: rgba(11, 178, 145, 0.555);
+}

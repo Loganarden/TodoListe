@@ -1,0 +1,26 @@
+input[type="text"],
+input[type=date],
+textarea,
+select {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #008DAA;
+    margin-bottom: 35px;
+    height: 45px;
+    font-size: 17px;
+}
+
+textarea{
+    height: 150px;
+}
+
+.card{
+    margin-left: 600px;
+    margin-right: 600px;
+}
